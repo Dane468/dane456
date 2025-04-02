@@ -242,7 +242,7 @@
         document.getElementById("message").innerText = "Incorrect username or password.";
 
         if (attempts >= 2) {
-            alert("Too many attempts. You must wait 30 seconds before retrying.");
+            alert("Too many attempts. You must wait 10 seconds before retrying.");
             isCooldown = true;
             startCooldown(10);
         }
